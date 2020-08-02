@@ -10,12 +10,13 @@
 
     <name>mb-extend</name>
     <!-- FIXME change it to the project's website -->
-    <url>http://www.example.com</url>
+    <description>一个工具类库</description>
+    <url>https://github.com/lizeze/mbextend</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.7</maven.compiler.source>
-        <maven.compiler.target>1.7</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
     <dependencies>
@@ -29,6 +30,7 @@
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>3.3.2</version>
+
         </dependency>
 
         <dependency>
@@ -104,7 +106,7 @@
     <licenses>
         <license>
             <name>MIT License</name>
-            <url>https://github.com/lizeze/library/blob/master/LICENSE</url>
+            <url>https://github.com/lizeze/mbextend/blob/master/LICENSE</url>
             <distribution>repo,manual</distribution>
         </license>
     </licenses>
@@ -116,9 +118,9 @@
         </developer>
     </developers>
     <scm>
-        <connection>scm:git:https://github.com/lizeze/library.git</connection>
-        <developerConnection>scm:git:https://github.com/lizeze/library.git</developerConnection>
-        <url>https://github.com/lizeze/library</url>
+        <connection>scm:git:https://github.com/lizeze/mbextend.git</connection>
+        <developerConnection>scm:git:https://github.com/lizeze/mbextend.git</developerConnection>
+        <url>https://github.com/lizeze/mbextend</url>
         <tag>0.0.1</tag>
     </scm>
 
